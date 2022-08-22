@@ -1,0 +1,64 @@
+
+body {
+    background-image: url("planets.jpg");
+    background-size: cover;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    background: #F2F2EB;
+    padding: 40px;
+    max-width: 60%;
+    margin:  auto;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: #2f5365;
+    border: none;
+    width: 150px
+}
+
+#save-btn {
+    background: #2f5365;
+    width: 150px;
+    border: none;
+}
+#save-btn:hover{
+    background: #13243e;
+}
+#increment-btn:hover{
+    background: #13243e;
+}
+
+#save-el {
+    font-weight: bold;
+}
+
